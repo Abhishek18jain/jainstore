@@ -1,13 +1,63 @@
+/* 🌿 Import Tailwind's base layers first */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌐 Custom Fonts (always after Tailwind base) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* 🌍 Global Font */
+* {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* 🌈 Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #333;
+}
+
+/* 🧠 Base Body Styling (overrides Tailwind defaults safely) */
 body {
+  @apply bg-gray-50 text-gray-900;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* 💻 Code block font styling */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+/* Scrollbar width */
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px;       /* Width of vertical scrollbar */
+  height: 1px !important;      /* Height of horizontal scrollbar */
+}
+
+/* Scrollbar track (background) */
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light gray track */
+  border-radius: 6px;
+}
+
+/* Scrollbar thumb (draggable part) */
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background-color: #4db6ac; /* Teal color */
+  border-radius: 6px;        /* Rounded edges */
+  border: 3px solid #f1f1f1; /* Adds padding around thumb */
+}
+
+/* Thumb hover effect */
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background-color: #2c7a7b; /* Darker teal on hover */
 }
