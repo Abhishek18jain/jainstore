@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/myshop/static/css/main.bb8ebaef.css",
-    "main.js": "/myshop/static/js/main.b9135833.js",
-    "static/js/453.60fb5b23.chunk.js": "/myshop/static/js/453.60fb5b23.chunk.js",
-    "static/media/Gemini_Generated_Image_79lafp79lafp79la.png": "/myshop/static/media/Gemini_Generated_Image_79lafp79lafp79la.55cf81c94e3aa8cd1ea9.png",
-    "index.html": "/myshop/index.html",
-    "main.bb8ebaef.css.map": "/myshop/static/css/main.bb8ebaef.css.map",
-    "main.b9135833.js.map": "/myshop/static/js/main.b9135833.js.map",
-    "453.60fb5b23.chunk.js.map": "/myshop/static/js/453.60fb5b23.chunk.js.map"
+    "main.css": "/jainstore/static/css/main.bb8ebaef.css",
+    "main.js": "/jainstore/static/js/main.cf9833b6.js",
+    "static/js/453.60fb5b23.chunk.js": "/jainstore/static/js/453.60fb5b23.chunk.js",
+    "static/media/Gemini_Generated_Image_79lafp79lafp79la.png": "/jainstore/static/media/Gemini_Generated_Image_79lafp79lafp79la.55cf81c94e3aa8cd1ea9.png",
+    "index.html": "/jainstore/index.html",
+    "main.bb8ebaef.css.map": "/jainstore/static/css/main.bb8ebaef.css.map",
+    "main.cf9833b6.js.map": "/jainstore/static/js/main.cf9833b6.js.map",
+    "453.60fb5b23.chunk.js.map": "/jainstore/static/js/453.60fb5b23.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb8ebaef.css",
-    "static/js/main.b9135833.js"
+    "static/js/main.cf9833b6.js"
   ]
 }
