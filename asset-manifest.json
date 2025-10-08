@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jainstore/static/css/main.bb8ebaef.css",
-    "main.js": "/jainstore/static/js/main.b7d58f74.js",
+    "main.css": "/jainstore/static/css/main.0c769a2f.css",
+    "main.js": "/jainstore/static/js/main.acf1138d.js",
     "static/js/453.60fb5b23.chunk.js": "/jainstore/static/js/453.60fb5b23.chunk.js",
     "static/media/Gemini_Generated_Image_79lafp79lafp79la.png": "/jainstore/static/media/Gemini_Generated_Image_79lafp79lafp79la.55cf81c94e3aa8cd1ea9.png",
     "index.html": "/jainstore/index.html",
-    "main.bb8ebaef.css.map": "/jainstore/static/css/main.bb8ebaef.css.map",
-    "main.b7d58f74.js.map": "/jainstore/static/js/main.b7d58f74.js.map",
+    "main.0c769a2f.css.map": "/jainstore/static/css/main.0c769a2f.css.map",
+    "main.acf1138d.js.map": "/jainstore/static/js/main.acf1138d.js.map",
     "453.60fb5b23.chunk.js.map": "/jainstore/static/js/453.60fb5b23.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb8ebaef.css",
-    "static/js/main.b7d58f74.js"
+    "static/css/main.0c769a2f.css",
+    "static/js/main.acf1138d.js"
   ]
 }
