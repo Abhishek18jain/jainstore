@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <div>
     <Provider store={store}>
-<BrowserRouter>
+<BrowserRouter basename='/jainstore'>
     <App />
 </BrowserRouter>
 </Provider>
