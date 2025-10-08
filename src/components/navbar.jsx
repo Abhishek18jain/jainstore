@@ -28,6 +28,7 @@ const Navbar = () => {
       >
         <li><NavLink to="/" onClick={() => setMenuOpen(false)}>Home</NavLink></li>
         <li><NavLink to="/inventory" onClick={() => setMenuOpen(false)}>Inventory</NavLink></li>
+        <li><NavLink to="/diary" onClick={() => setMenuOpen(false)}>Diary</NavLink></li>
       </ul>
     </nav>
   );
